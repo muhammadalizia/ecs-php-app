@@ -20,6 +20,7 @@
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <p>Added this text to trigger pipeline and see the changes</p>
+                <h1>another change on github to trigger new deployment</h1>
                 <?php
                 /*
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
