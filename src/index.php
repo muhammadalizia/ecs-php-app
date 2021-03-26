@@ -18,7 +18,8 @@
                 <h1>ECS App</h1>
                 <h2>Congratulations</h2>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
-                <p>The container is running PHP version 7<?php //echo phpversion(); ?>.</p>
+                <p>The container is running PHP version 8<?php //echo phpversion(); ?>.</p>
+                <p>from git</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
